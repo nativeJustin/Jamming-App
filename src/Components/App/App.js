@@ -1,5 +1,9 @@
 import React from "react";
 import "../App/App.css";
+import '../Playlist/Playlist';
+import '../SearchBar/SearchBar';
+import '../SearchResults/SearchResults';
+
 
 class App extends React.Component{
   render() {
