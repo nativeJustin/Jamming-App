@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+  
 }
 
 .Track-action {
@@ -11,7 +12,7 @@
   transition: color 0.25s;
   border: 0px;
   background-color: rgba(0, 0, 0, 0);
-  color: #fff
+  color: #fff;
 }
 
 .Track-action:hover {
@@ -24,6 +25,7 @@
   flex-direction: column;
   justify-content: center;
   height: 72px;
+  text-overflow: ellipsis;
 }
 
 .Track-information h3 {
@@ -35,4 +37,3 @@
   font-weight: 300;
   color: rgba(256, 256, 256, 0.8);
 }
-
