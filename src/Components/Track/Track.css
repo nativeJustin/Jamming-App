@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(256, 256, 256, 0.8);
-  
 }
 
 .Track-action {
@@ -25,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   height: 72px;
-  text-overflow: ellipsis;
+  overflow-y: scroll;
 }
 
 .Track-information h3 {
@@ -36,4 +35,14 @@
   font-size: 0.83rem;
   font-weight: 300;
   color: rgba(256, 256, 256, 0.8);
+}
+
+@media only screen and (max-width: 1020px) {
+  .Track-information {
+    width: 40%;
+    overflow: clip;
+  }
+  .Track-information p{
+    overflow: hidden; 
+  }
 }
