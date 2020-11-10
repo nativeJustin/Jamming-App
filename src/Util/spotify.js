@@ -1,5 +1,5 @@
 const clientId = "83906326cf234d9fb8522b565f8bb6d5";
-const redirectUri = window.origin;
+const redirectUri = 'http://jamming-music-app.surge.sh/' /*window.origin*/;
 let accessToken;
 
 const Spotify = {
